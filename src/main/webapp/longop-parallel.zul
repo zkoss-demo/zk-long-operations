@@ -2,7 +2,7 @@
 	xmlns="http://www.zkoss.org/2005/zul"
 	xsi:schemaLocation="http://www.zkoss.org/2005/zul http://www.zkoss.org/2005/zul/zul.xsd">
 
-	<div apply="org.zkoss.bind.BindComposer"
+	<div
 		 viewModel="@id('vm') @init('zk.example.longoperations.example.ParallelLongOperationViewModel')">
 		<button onClick="@command('startLongOperation')"
 				label="start (click multiple times)" />

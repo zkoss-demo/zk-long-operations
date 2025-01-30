@@ -11,14 +11,14 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Queue;
 
-import javax.xml.bind.DatatypeConverter;
-
 import org.zkoss.bind.BindUtils;
 import org.zkoss.bind.annotation.Command;
 import org.zkoss.zk.ui.util.Clients;
 import org.zkoss.zul.ListModelList;
 
 import zk.example.longoperations.LongOperation;
+
+import javax.xml.bind.DatatypeConverter;
 
 public class UpdatingResultLongOperationViewModel {
 
